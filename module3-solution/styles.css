@@ -1,1 +1,41 @@
+body{
+	font-size: 1rem;
+	color: black;
+	background-color: white;
+
+}
+
+	
+#header-nav {
+	width: 100%;
+	background-color: grey;
+	height: 50px;
+}
+
+#headercontent{
+	margin: 0 auto; width: 100%;
+
+}
+
+
+h2,h3{
+	text-align: center;
+
+}
+.jumbotron{
+	background-color: grey;
+
+}
+
+
+ .navbar-toggle{
+ 	position: relative;
+ 	float: right;
+
+ }
+ @media (min-width: 768px){
+ 	.navbar-toggle{
+ 		display: none;
+ 	}
+ }
 
