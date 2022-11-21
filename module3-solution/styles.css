@@ -38,4 +38,11 @@ h2,h3{
 	background-color: grey:
 		borde-color: black;
 }
+#nav-list{
+	margin-top:10px;
+}
+#nav-list a{
+	text-align:center;
+	color:black;
+}
  
