@@ -41,21 +41,3 @@ h2,h3{
 #nav-list{
 	margin-top:10px;
 }
-#nav-list a{
-	text-align:center;
-	color:black;
-}
-#nav-list a  span{
-	font-size:32px;
-}
-#nav-list{
-	margin-top: 10px;
-}
-#nav-list a{
-	color:lightblue;
-	text-align: center;
-}
-#nav-list a:hover{
-	background:grey;
-}
- 
