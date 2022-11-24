@@ -38,12 +38,12 @@ h2,h3{
  .navbar-toggle .navbar-default .icon-bar{
  	position: relative;
  	float: right;
-	 background-color: white;
+	 background-color: grey;
 
  }
 .navbar-default{
 	background-color: grey:
-		borde-color: black;
+		border-color: black;
 }
 .navbar navbar-default{
 	transition: top 0.3s /* transition effect when slidding down (and up) */
@@ -57,5 +57,8 @@ div#collapsable-nav{
 	background-color: lightblue;
 	curser: grab/pointer;
 }
-
+.navbar-default .navbar-toggle{
+	border-color: white;
+	background-color: wheat;
+}
 
