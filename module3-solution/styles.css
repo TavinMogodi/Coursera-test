@@ -42,5 +42,9 @@ h2,h3{
 	transition: top 0.3s /* transition effect when slidding down (and up) */
 		
 }
+div#collapsable-nav{
+	border-color: wheat;
+	text-align: center;
+}
 
 
