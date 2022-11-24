@@ -9,7 +9,7 @@ body{
 }
 
 	
-#header-nav {
+.header-nav {
 	width: 100%;
 	background-color: grey;
 	height: 50px;
@@ -42,7 +42,5 @@ h2,h3{
 	transition: top 0.3s /* transition effect when slidding down (and up) */
 		
 }
-element.style{
-	top: 0 -50px;
-}
+
 
