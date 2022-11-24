@@ -1,23 +1,20 @@
-
 body{
 	font-size: 1rem;
 	color: black;
 	background-color: white;
+	font-family: arial
 
+}
+.lead{
+	font-size: 16px;
 }
 
 	
-#header-nav {
+.header-nav {
 	width: 100%;
 	background-color: grey;
 	height: 50px;
 }
-
-#headercontent{
-	margin: 0 auto; width: 100%;
-
-}
-
 
 h2,h3{
 	text-align: center;
@@ -27,15 +24,29 @@ h2,h3{
 	background-color: grey;
 
 }
+.jumbotron p{
+	font-size: 1rem;
+}
 
 
- .navbar-toggle{
+ .navbar-toggle .navbar-default .icon-bar{
  	position: relative;
  	float: right;
+	 background-color: white;
 
  }
- @media (min-width: 768px){
- 	.navbar-toggle{
- 		display: none;
- 	}
- }
+.navbar-default{
+	background-color: grey:
+		borde-color: black;
+}
+.navbar navbar-default{
+	transition: top 0.3s /* transition effect when slidding down (and up) */
+		
+}
+div#collapsable-nav{
+	border-color: wheat;
+	text-align: center;
+}
+#collapsable-nav a:hover{
+	background-color: lightblue;
+}
