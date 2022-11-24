@@ -32,9 +32,7 @@ h2,h3{
 .jumbotron p{
 	font-size: 1rem;
 }
-element.hover{
-	curser: grab/pointer;
-}
+
 
 
  .navbar-toggle .navbar-default .icon-bar{
@@ -57,6 +55,7 @@ div#collapsable-nav{
 }
 #collapsable-nav a:hover{
 	background-color: lightblue;
+	curser: grab/pointer;
 }
 
 
