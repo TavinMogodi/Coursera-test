@@ -46,5 +46,8 @@ div#collapsable-nav{
 	border-color: wheat;
 	text-align: center;
 }
+#collapsable-nav a:hover{
+	background-color: lightblue;
+}
 
 
