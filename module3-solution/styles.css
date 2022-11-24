@@ -74,7 +74,10 @@ div#collapsable-nav{
 /* Handle */
 ::-webkit-scrollbar-thumb {
 	background: grey;
-	border-radius: 10px 10px 10px 10px;
+	border-radius-top: 10px;
+	border-radius-bottom: 10px;
+	border-radius-left: 10px;
+	border-radius-right: 10px;
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
