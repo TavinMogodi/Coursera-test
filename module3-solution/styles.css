@@ -40,5 +40,9 @@ h2,h3{
 }
 .navbar navbar-default{
 	transition: top 0.3s /* transition effect when slidding down (and up) */
+		
+}
+element.style{
+	top: 0 -50px;
 }
 
