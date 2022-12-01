@@ -60,7 +60,7 @@ for (var i = 0; i < names.length; i++) {
   if (firstLetter === 'j') {
     byeSpeaker.speak("Goodbye " + names[i]);
   } else {
-    helloSpeaker.speak("Goodbye " + names[i]);
+    helloSpeaker.speak("Hello " + names[i]);
   }
 }
 
