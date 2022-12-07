@@ -80,15 +80,16 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 // *** start ***
 // On first load, show home view
+// ***** <---- TODO: STEP 1: Substitute [...] ******
+// Explicitly setting the flag to get JSON from server processed into an object literal
 showLoading("#main-content");
 $ajaxUtils.sendGetRequest(
-  allCategoriesUrl,
-  homeHtml, // ***** <---- TODO: STEP 1: Substitute [...] ******
+ homeHtml,
  function (responseText) {
    document.querySelector("#main-content")
    .innerHTML = responseText;
  },
-  false); // Explicitly setting the flag to get JSON from server processed into an object literal
+  false); 
 });
 // *** finish **
 
