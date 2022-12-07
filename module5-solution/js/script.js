@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 // Explicitly setting the flag to get JSON from server processed into an object literal
 showLoading("#main-content");
 $ajaxUtils.sendGetRequest(
- homeHtml,
+ allCategoriesUrl,
  function (responseText) {
    document.querySelector("#main-content")
    .innerHTML = responseText;
