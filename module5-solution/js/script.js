@@ -85,11 +85,12 @@ document.addEventListener("DOMContentLoaded", function (event) {
 showLoading("#main-content");
 $ajaxUtils.sendGetRequest(
  allCategoriesUrl,
+ buildAndShowHomeHTML,
  function (responseText) {
    document.querySelector("#main-content")
    .innerHTML = responseText;
  },
-  false); 
+  true); 
 });
 // *** finish **
 
